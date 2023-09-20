@@ -1,3 +1,4 @@
+import "../styles/ApplicationForm.css";
 import { FormSection } from "./FormSection";
 import { Input } from "./Input";
 
@@ -10,7 +11,7 @@ function ApplicationForm({
   onPhoneNumberInputChange
 }) {
   return (
-    <section>
+    <section className="formSection">
       <form>
         <FormSection legend="General Information">
           <Input id="name" label="Name:" type="text" inputValue={nameInput} onInputValueChange={onNameInputChange} />

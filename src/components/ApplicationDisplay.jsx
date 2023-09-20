@@ -1,8 +1,9 @@
+import "../styles/ApplicationDisplay.css";
 import { DisplaySection } from "./DisplaySection";
 
 function ApplicationDisplay({ nameInput, emailInput, phoneNumberInput }) {
   return (
-    <section>
+    <section className="displaySection">
       <DisplaySection heading="General Information">
         <p>Name: {nameInput}</p>
         <p>Email: {emailInput}</p>

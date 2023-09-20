@@ -1,3 +1,4 @@
+import "../styles/App.css";
 import { useState } from "react";
 import { ApplicationForm } from "./ApplicationForm";
 import { ApplicationDisplay } from "./ApplicationDisplay";

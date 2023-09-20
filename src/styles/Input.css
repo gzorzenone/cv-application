@@ -1,0 +1,12 @@
+label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  font-family: inherit;
+  font-size: 100%;
+  padding: 4px;
+}

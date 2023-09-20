@@ -1,3 +1,5 @@
+import "../styles/DisplaySection.css";
+
 function DisplaySection({ heading, children }) {
   return (
     <section>

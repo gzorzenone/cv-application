@@ -1,3 +1,5 @@
+import "../styles/Input.css";
+
 function Input({ id, label, type, inputValue, onInputValueChange }) {
   return (
     <label htmlFor={id}>
